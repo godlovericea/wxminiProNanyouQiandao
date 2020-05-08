@@ -1,0 +1,18 @@
+<view>
+  <view class="feedBackBox">
+    <textarea class="textareaBox" placeholder-class="place" maxlength="300" bindblur="bindTextAreaBlur" placeholder="写下会议签到系统的功能建议或发现的系统问题,感谢哦!" />
+  </view>
+  <view class="uploadPic">
+    <text class="uploadTitle">上传图片证据</text>
+    <van-uploader
+      file-list="{{ fileList }}"
+      use-before-read
+      bind:before-read="beforeRead"
+      bind:after-read="afterRead"
+      name="file"
+    />
+  </view>
+  <view class="btnBox">
+    <van-button class="subBtn" size="large" bind:click="submit" color="linear-gradient(to right, #37A5FE, #0F6AF9)">提交反馈</van-button>
+  </view>
+</view>

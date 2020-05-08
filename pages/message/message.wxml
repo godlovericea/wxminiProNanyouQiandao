@@ -1,0 +1,60 @@
+<view>
+  <view class="loginImg">
+    <image class='site-img' data-id="{{item.deviceId}}" src="../../images/message-bg.png" catchtap='navmap'></image>
+    <text class="loginTitle">信息</text>
+  </view>
+  <view class="messageBox">
+    <view class="meetContent" bindtap="goDetails">
+      <view class="titleBox">
+        <text class="title">会议名称1</text>
+        <text class="meetTime">2019.12.02</text>
+      </view>
+      <view class="infoBox">
+        <text class="info">简单介绍活动内容有哪些......</text>
+      </view>
+      <view class="addressBox">
+        <image class="addressImg" src="../../images/icon-03.png"></image>
+        <text class="address">南京市玄武区</text>
+      </view>
+    </view>
+    <view class="meetContent" bindtap="goDetails">
+      <view class="titleBox">
+        <text class="title">会议名称1</text>
+        <text class="meetTime">2019.12.02</text>
+      </view>
+      <view class="infoBox">
+        <text class="info">简单介绍活动内容有哪些......</text>
+      </view>
+      <view class="addressBox">
+        <image class="addressImg" src="../../images/icon-03.png"></image>
+        <text class="address">南京市玄武区</text>
+      </view>
+    </view>
+    <view class="meetContent" bindtap="goDetails">
+      <view class="titleBox">
+        <text class="title">会议名称1</text>
+        <text class="meetTime">2019.12.02</text>
+      </view>
+      <view class="infoBox">
+        <text class="info">简单介绍活动内容有哪些......</text>
+      </view>
+      <view class="addressBox">
+        <image class="addressImg" src="../../images/icon-03.png"></image>
+        <text class="address">南京市玄武区</text>
+      </view>
+    </view>
+    <view class="meetContent" bindtap="goDetails">
+      <view class="titleBox">
+        <text class="title">会议名称1</text>
+        <text class="meetTime">2019.12.02</text>
+      </view>
+      <view class="infoBox">
+        <text class="info">简单介绍活动内容有哪些......</text>
+      </view>
+      <view class="addressBox">
+        <image class="addressImg" src="../../images/icon-03.png"></image>
+        <text class="address">南京市玄武区</text>
+      </view>
+    </view>
+  </view>
+</view>

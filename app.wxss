@@ -1,0 +1,18 @@
+/**app.wxss**/
+page{
+  background-color: #eeeeee;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.dialogClass{
+  height: 500rpx;
+}
+.stepCircle .van-circle__text {
+  color: #fff;
+}

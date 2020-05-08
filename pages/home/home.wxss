@@ -1,0 +1,105 @@
+/* pages/home.wxss */
+.loginImg{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+.loginTitle{
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  bottom: 50rpx;
+  color: #ffffff;
+  font-weight:600;
+  letter-spacing: 4rpx;
+  font-size:30rpx;
+}
+.site-img{
+  width: 100%;
+  height:450rpx;
+}
+.content{
+  padding: 60rpx 40rpx;
+  display: flex;
+  flex-direction: column;
+}
+.contentBox{
+  height: 232rpx;
+}
+.meetsBox{
+  height: 200rpx;
+}
+.meetTime{
+  color: #AAAAAA;
+}
+.timeLine{
+  display: flex;
+  flex-direction: column;
+  width: 16rpx;
+  padding-top: 15rpx;
+}
+.circle{
+  width: 16rpx;
+  height: 16rpx;
+  border-radius: 50%;
+  background-color: #CCCCCC;
+}
+.line{
+  width: 2rpx;
+  height: 232rpx;
+  margin: 0 auto;
+  background-color: #CCCCCC;
+}
+.meetContent{
+  background-color: #ffffff;
+  height: 200rpx;
+  margin-top: 15rpx;
+  border-radius:10rpx 10rpx 10rpx 6rpx;
+  padding:5rpx 15rpx; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.titleBox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title{
+  color: #666666;
+  font-size:32rpx;
+  font-weight:500;
+  /* padding: 10rpx 0 0 20rpx; */
+}
+.meetType{
+  font-size:24rpx;
+  font-weight:400;
+  color: #0F6AF9;
+  /* padding: 10rpx 20rpx 0 0; */
+}
+.infoBox{
+  margin-top: 30rpx;
+}
+.info{
+  color: #CCCCCC;
+  font-size:28rpx;
+  font-weight:400;
+  /* padding: 0 20rpx; */
+}
+.addressBox{
+  margin-top: 30rpx;
+  /* padding: 0 0 10rpx 20rpx; */
+}
+.addressImg{
+  width: 20rpx;
+  height: 22rpx;
+  margin-right: 10rpx;
+}
+.address{
+  color: #BBBBBB;
+  font-size:24rpx;
+  font-weight:400;
+}
+

@@ -1,0 +1,13 @@
+<import src="../../template/meetDetail/meetDetail.wxml"/>
+<import src="../../template/meetDetail/meetDetail.wxss"/>
+<view>
+  <view class="loginImg">
+    <image class='site-img' data-id="{{item.deviceId}}" src="./home-bg.png" catchtap='navmap'></image>
+    <text class="loginTitle">首页</text>
+  </view>
+  <view class="content">
+    <block wx:for="{{[1,2,3,4,5]}}">
+      <template is="meetItem"></template>
+    </block>
+  </view>
+</view>

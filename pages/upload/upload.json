@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "image-cropper":"../../image-cropper/image-cropper"
+  },
+  "navigationStyle":"default",
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTitleText": "上传图片",
+  "navigationBarTextStyle": "black"
+}

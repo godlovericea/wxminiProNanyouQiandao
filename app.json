@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/upload/upload",
+    "pages/home/home",
+    "pages/message/message",
+    "pages/my/my",
+    "pages/editor/editor",
+    "pages/feadback/feadback",
+    "pages/details/details",
+    "template/meetDetail/meetDetail"
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1688ee",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-icon": "@vant/weapp/icon",
+    "van-field": "@vant/weapp/field",
+    "van-button": "@vant/weapp/button",
+    "van-dialog": "@vant/weapp/dialog",
+    "van-row": "@vant/weapp/row",
+    "van-col": "@vant/weapp/col",
+    "van-circle": "@vant/weapp/circle",
+    "van-tab": "@vant/weapp/tab",
+    "van-tabs": "@vant/weapp/tabs",
+    "van-uploader": "@vant/weapp/uploader"
+  },
+  "tabBar": {
+    "color": "#AAAAAA",
+    "selectedColor": "#0F6AF9",
+    "list": [
+      {
+        "selectedIconPath": "images/nav-home-pre.png",
+        "iconPath": "images/nav-home.png",
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/nav-message-pre.png",
+        "iconPath": "images/nav-message.png",
+        "pagePath": "pages/message/message",
+        "text": "信息"
+      },
+      {
+        "selectedIconPath": "images/nav-my-pre.png",
+        "iconPath": "images/nav-my.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  }
+}

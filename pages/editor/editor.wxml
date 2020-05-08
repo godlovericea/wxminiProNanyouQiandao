@@ -1,0 +1,69 @@
+<view>
+  <view class="profileTitleBox">
+    <text class="profileTitle">个人资料</text>
+  </view>
+  <view class="contentBox">
+    <view class="avatarBox">
+      <van-row>
+        <van-col span="8">
+          <view class="avatarItems">
+              <image class="avatar" src="../../images/avatar.jpg"></image>
+          </view>
+        </van-col>
+        <van-col span="8">
+          <text class="context">修改头像</text>
+        </van-col>
+        <van-col span="8" bindtap="goUpload">
+          <view class="rightIconBox">
+            <image class="rightIcon" src="../../images/right.png"></image>
+          </view>
+        </van-col>
+      </van-row>
+    </view>
+    <view class="infoBox">
+      <van-row>
+        <van-col span="8">
+          <text class="infoItems">昵称</text>
+        </van-col>
+        <van-col span="8">
+          <text class="infotext">简单</text>
+        </van-col>
+        <van-col span="8">
+          <view class="infoRightIconBox">
+            <image class="infoRightIcon" src="../../images/right.png"></image>
+          </view>
+        </van-col>
+      </van-row>
+    </view>
+    <view class="infoBox">
+      <van-row>
+        <van-col span="8">
+          <text class="infoItems">性别</text>
+        </van-col>
+        <van-col span="8">
+          <text class="infotext">女</text>
+        </van-col>
+        <van-col span="8">
+          <view class="infoRightIconBox">
+            <image class="infoRightIcon" src="../../images/right.png"></image>
+          </view>
+        </van-col>
+      </van-row>
+    </view>
+    <view class="cardinfoBox">
+      <van-row>
+        <van-col span="8">
+          <text class="infoItems">工号</text>
+        </van-col>
+        <van-col span="8">
+          <text class="infotext">10802903</text>
+        </van-col>
+        <van-col span="8">
+          <!-- <view class="infoRightIconBox">
+            <image class="infoRightIcon" src="../../images/right.png"></image>
+          </view> -->
+        </van-col>
+      </van-row>
+    </view>
+  </view>
+</view>

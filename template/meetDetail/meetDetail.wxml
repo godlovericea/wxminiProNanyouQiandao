@@ -1,0 +1,32 @@
+<template name="meetItem">
+  <view class="contentBox">
+    <view class="meetsBox">
+      <van-row>
+        <van-col span="4">
+          <text class="meetTime">12.03</text>
+        </van-col>
+        <van-col span="2">
+          <view class="timeLine">
+            <view class="circle"></view>
+            <view class="line"></view>
+          </view> 
+        </van-col>
+        <van-col span="18" bindtap="goDetails">
+          <view class="meetContent">
+            <view class="titleBox">
+              <text class="title">会议名称1</text>
+              <text class="meetType">未开会议</text>
+            </view>
+            <view class="infoBox">
+              <text class="info">简单介绍活动内容有哪些......</text>
+            </view>
+            <view class="addressBox">
+              <image class="addressImg" src="../../images/icon-03.png"></image>
+              <text class="address">南京市玄武区</text>
+            </view>
+          </view>
+        </van-col>
+      </van-row>
+    </view>
+  </view>
+</template>

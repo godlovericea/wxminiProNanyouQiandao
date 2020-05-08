@@ -1,0 +1,81 @@
+/* pages/message/message.wxss */
+/* pages/home.wxss */
+.loginImg{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+.loginTitle{
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  bottom: 60rpx;
+  color: #ffffff;
+  font-weight:600;
+  letter-spacing: 4rpx;
+  font-size:30rpx;
+}
+.site-img{
+  width: 100%;
+  height:200rpx;
+}
+.tabBox{
+  position: absolute;
+  width: 100%;
+  bottom: 50rpx;
+}
+.messageBox{
+  padding: 60rpx 40rpx;
+}
+.meetContent{
+  background-color: #ffffff;
+  height: 216rpx;
+  margin-top: 32rpx;
+  border-radius:10rpx 10rpx 10rpx 6rpx;
+  padding:5rpx 15rpx; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.titleBox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title{
+  color: #666666;
+  font-size:32rpx;
+  font-weight:500;
+  /* padding: 10rpx 0 0 20rpx; */
+}
+.meetTime{
+  font-size:24rpx;
+  font-weight:400;
+  color: #BBBBBB;
+  /* padding: 10rpx 20rpx 0 0; */
+}
+.infoBox{
+  margin-top: 30rpx;
+}
+.info{
+  color: #CCCCCC;
+  font-size:28rpx;
+  font-weight:400;
+  /* padding: 0 20rpx; */
+}
+.addressBox{
+  margin-top: 30rpx;
+  /* padding: 0 0 10rpx 20rpx; */
+}
+.addressImg{
+  width: 20rpx;
+  height: 22rpx;
+  margin-right: 10rpx;
+}
+.address{
+  color: #BBBBBB;
+  font-size:24rpx;
+  font-weight:400;
+}

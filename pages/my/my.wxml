@@ -1,0 +1,20 @@
+<view>
+  <view class="loginImg">
+    <image class='site-img' data-id="{{item.deviceId}}" src="../../images/my-bg.png" catchtap='navmap'></image>
+    <text class="myTitle">我的</text>
+    <view class="avatarBox">
+      <image class="avatar" src="../../images/avatar.jpg"></image>
+    </view>
+    <text class="nickname">大米饭</text>
+  </view>
+  <view class="myItems">
+    <view class="itemsBox" bindtap="goEditor">
+      <image class="editImg" src="../../images/my-icon-edit.png"></image>
+      <text>编辑资料</text>
+    </view>
+    <view class="itemsBox" bindtap="goFeedback">
+      <image class="editImg" src="../../images/my-icon-feedback.png"></image>
+      <text>意见反馈</text>
+    </view>
+  </view>
+</view>

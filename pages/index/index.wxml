@@ -1,0 +1,43 @@
+<!--index.wxml-->
+<view class="container">
+<view class="loginImg">
+  <image class='site-img' data-id="{{item.deviceId}}" src="./login-bg.png" catchtap='navmap'></image>
+  <text class="loginTitle">人脸会议签到</text>
+</view>
+  <!-- <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view> -->
+  <!-- <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->
+  <view class="loginBox">
+    <view class="usernameBox">
+      <van-field class="loginInputStyle" value="{{ username }}" left-icon="manager" placeholder="请输入姓名" bind:change="getUserName"></van-field>
+    </view>
+    <view class="staffNoBox">
+      <van-field class="loginInputStyle" value="{{ staffNo }}" type="number" left-icon="card" placeholder="请输入工号" maxlength="8" bind:change="getStaffNo"></van-field>
+    </view>
+    <view class="loginBtnBox">
+      <button disabled="{{loginFlag}}" class="loginBtn" open-type="getUserInfo" bindgetuserinfo="handleUserInfo">登录</button>
+      <!-- <van-button  class="loginBtn" bind:click="login">登录</van-button> -->
+    </view>
+  </view>
+  <!-- <view class="dialogBox">
+    <van-dialog
+        use-slot
+        title=""
+        class-name="dialogClass"
+        show="{{ show }}"
+        show-cancel-button
+        confirm-button-open-type="sureLogin"
+        bind:close="onClose"
+        
+      >
+      <text>是否确定信息?</text>
+    </van-dialog>
+  </view> -->
+</view>
